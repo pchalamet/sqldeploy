@@ -10,7 +10,7 @@ namespace SqlDeploy.Test
     {
         public async static Task<int> Main(string[] args)
         {
-            if (args.Length != 2) {
+            if (args.Length != 3) {
                 Console.WriteLine("Usage: sqldeploy <projectFile> <connectionString> <dbName>");
                 return 5;
             }
